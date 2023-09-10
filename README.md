@@ -38,7 +38,7 @@ Welcome to my portfolio! Here, you'll find the done project of data science fiel
 - Python - Streamlit.
 - Shown important insights for walmart.
 
-### Project 7: [Handwritten Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Walmart)
+### Project 7: [Handwritten Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Handwritten%20Reco)
 -  we aim to recognize handwritten digits using a Artificial Neural Network (ANN).
 - Python - Tensorflow.
 
