@@ -1,6 +1,6 @@
 # Handwritten Digit Classification with Artificial Neural Networks (ANN)
 
-In this AI project, we aim to recognize handwritten digits using a Convolutional Neural Network (CNN). We will be working with the **MNIST dataset**, which consists of 60,000 grayscale images of handwritten single digits ranging from 0 to 9, along with their corresponding labels.
+In this AI project, we aim to recognize handwritten digits using a Artificial Neural Network (ANN). We will be working with the **MNIST dataset**, which consists of 60,000 grayscale images of handwritten single digits ranging from 0 to 9, along with their corresponding labels.
 
 ## MNIST Dataset
 
