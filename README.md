@@ -23,30 +23,30 @@ Welcome to my portfolio! Here, you'll find the done project of data science fiel
 - Python.
 - Developed 2 models to predict the winner of 2 teams.
 
-### Project 4: [Titanic (Kaggle Compitation)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Titanic)
+### Project 5: [Titanic (Kaggle Compitation)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Titanic)
 - Knowing who stayed alive and who had dead in titanic.
 - Python.
 - Developed Randomforest model.
 
-### Project 5: [SpaceX (IBM DS)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/SpaceX)
+### Project 6: [SpaceX (IBM DS)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/SpaceX)
 - SpaceX Project about Falcon 9 rocket launches.
 - Python.
 - Developed Classifacion models.
 
-### Project 6: [Walmart supermarkets](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Walmart)
+### Project 7: [Walmart supermarkets](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Walmart)
 -  the Walmart sales dataset, providing insights into store performance, holiday impact, and potential areas for improvement.
 - Python - Streamlit.
 - Shown important insights for walmart.
 
-### Project 7: [Handwritten Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Handwritten%20Digit%20Recognition)
+### Project 8: [Handwritten Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Handwritten%20Digit%20Recognition)
 -  we aim to recognize handwritten digits using a Convolutional Neural Network (CNN).
 - Python - Tensorflow - GUI.
 
-### Project 8: [Spam Email Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Spam%20Email%20Classification)
+### Project 9: [Spam Email Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Spam%20Email%20Classification)
 - Exploring a dataset of SMS messages, this project distinguishes between legitimate and spam messages, achieving a Support Vector Machine model accuracy of 97.5% and offering insights into spam detection and text analysis.
 - python - Text mining - GUI.
 
-### Project 9: [House Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/House%20Price%20Prediction)
+### Project 10: [House Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/House%20Price%20Prediction)
 - This project delves into housing data, tackling missing values, engineering features, and developing a ridge regression model to accurately predict home prices, achieving a Mean Squared Error of 0.02 and an R2 Score of 89.18%, while also providing insightful visualisations.
 - Python - Regression with CV.
 
