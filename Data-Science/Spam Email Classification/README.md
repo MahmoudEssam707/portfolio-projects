@@ -7,14 +7,12 @@
 - Dive into the dataset, exploring the intricacies of SMS messages tagged as ham or spam.
 - Discover the initial tableau of the first 10 rows, setting the stage for data analysis.
 - Investigate data types and missing values, ensuring data integrity throughout the process.
-- Witness the saga of data wrangling, from handling missing values to categorical encoding and feature creation.
 
 **🔍 Handling Missing Values 🔍**
 
 - Restore integrity as missing values find resolution through meticulous filling.
 - Observe the transformation of pivotal columns, adapting to the needs of the analysis.
 - Appreciate the elegance of object type conversion, enriching the categorical landscape.
-- Bid farewell to columns 'PoolQC' and 'MiscFeature', alleviating the burden of high null values.
 
 **🌟 Feature Engineering 🌟**
 
