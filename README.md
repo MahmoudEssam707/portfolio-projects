@@ -50,6 +50,12 @@ Welcome to my portfolio! Here, you'll find the done project of data science fiel
 - This project delves into housing data, tackling missing values, engineering features, and developing a ridge regression model to accurately predict home prices, achieving a Mean Squared Error of 0.02 and an R2 Score of 89.18%, while also providing insightful visualisations.
 - Python - Regression with CV.
 
+### Project 11: [Smartphone Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Smartphone%20Prediction)
+- Summary: Analyzed smartphone data, cleaned missing values, explored price trends by brand, and built machine learning models to predict prices.
+- Best Model: Random Forest Regressor achieved the lowest MSE of 0.0007 on validation data.
+- Insights: Provided insights into smartphone pricing trends and model effectiveness.
+- Python - Machine learning - PowerBI for analysis.
+
 ## Software Engineering
 ## Embedded System
 ### Project 1: [Smart Home System Using ESP32](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/Project%20(Smart%20Home%20System))
