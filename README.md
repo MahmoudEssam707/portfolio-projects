@@ -1,71 +1,76 @@
-# My Portfolio
+# My Portfolio  
 
-Welcome to my portfolio! Here, you'll find the done project of data science field and some software-engineering projects, showing my skills and projects
-# Projects
-## Data Science
-### Project 1: [Anime Predictor](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Anime%20Predictor)
-- collaborative filtering to recommend anime to users based on their viewing history and ratings.
-- Python.
-- Using KNN.
+Welcome to my portfolio! Here, you'll find completed projects in the fields of data science and software engineering, showcasing my skills and achievements.  
 
-### Project 2: [Breast Cancer Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Breast%20cancer%20prediction)
-- classify breast cancer cases as benign or malignant using machine learning models.
-- Python
-- Using Randomforest Classification.
+# Projects  
 
-### Project 3: [bike-share (Google)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Google%20Capstone(Bike%20Share))
-- use Cyclistic bikes differently till we can convert casual riders into annual members.
-- R
-- Analytical Skills.
+## Data Science  
 
-### Project 4: [League of legands (Who's winner)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/League%20of%20legands%20(Who's%20winner))
-- Our models provide predictions for the winning team based on the provided in-game features. 
-- Python.
-- Developed 2 models to predict the winner of 2 teams.
+### Project 1: [Anime Predictor](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Anime%20Predictor)  
+- Implemented collaborative filtering to recommend anime based on user viewing history and ratings.  
+- Tools: Python, KNN Algorithm.  
 
-### Project 5: [Titanic (Kaggle Compitation)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Titanic)
-- Knowing who stayed alive and who had dead in titanic.
-- Python.
-- Developed Randomforest model.
+### Project 2: [Breast Cancer Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Breast%20cancer%20prediction)  
+- Built a machine learning model to classify breast cancer cases as benign or malignant.  
+- Tools: Python, Random Forest Classifier.  
 
-### Project 6: [SpaceX (IBM DS)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/SpaceX)
-- SpaceX Project about Falcon 9 rocket launches.
-- Python.
-- Developed Classifacion models.
+### Project 3: [Bike-Share (Google Capstone)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Google%20Capstone(Bike%20Share))  
+- Analyzed Cyclistic bike usage to identify strategies for converting casual riders into annual members.  
+- Tools: R, Analytical Skills.  
 
-### Project 7: [Walmart supermarkets](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Walmart)
--  the Walmart sales dataset, providing insights into store performance, holiday impact, and potential areas for improvement.
-- Python - Streamlit.
-- Shown important insights for walmart.
+### Project 4: [League of Legends (Who's Winner)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/League%20of%20legands%20(Who's%20winner))  
+- Developed two predictive models to determine the winning team based on in-game features.  
+- Tools: Python.  
 
-### Project 8: [Handwritten Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Handwritten%20Digit%20Recognition)
--  we aim to recognize handwritten digits using a Convolutional Neural Network (CNN).
-- Python - Tensorflow - GUI.
+### Project 5: [Titanic (Kaggle Competition)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Titanic)  
+- Predicted survival outcomes of passengers aboard the Titanic.  
+- Tools: Python, Random Forest Model.  
 
-### Project 9: [Spam Email Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Spam%20Email%20Classification)
-- Exploring a dataset of SMS messages, this project distinguishes between legitimate and spam messages, achieving a Support Vector Machine model accuracy of 97.5% and offering insights into spam detection and text analysis.
-- python - Text mining - GUI.
+### Project 6: [SpaceX (IBM DS Project)](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/SpaceX)  
+- Analyzed Falcon 9 rocket launch data to classify successful launches.  
+- Tools: Python, Classification Models.  
 
-### Project 10: [House Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/House%20Price%20Prediction)
-- This project delves into housing data, tackling missing values, engineering features, and developing a ridge regression model to accurately predict home prices, achieving a Mean Squared Error of 0.02 and an R2 Score of 89.18%, while also providing insightful visualisations.
-- Python - Regression with CV.
+### Project 7: [Walmart Supermarkets](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Walmart)  
+- Explored Walmart sales data to uncover insights on store performance and holiday impact.  
+- Tools: Python, Streamlit.  
 
-### Project 11: [Smartphone Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Smartphone%20Prediction)
-- Summary: Analyzed smartphone data, cleaned missing values, explored price trends by brand, and built machine learning models to predict prices.
-- Best Model: Random Forest Regressor achieved the lowest MSE of 0.0007 on validation data.
-- Insights: Provided insights into smartphone pricing trends and model effectiveness.
-- Python - Machine learning - PowerBI for analysis.
+### Project 8: [Handwritten Digit Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Handwritten%20Digit%20Recognition)  
+- Recognized handwritten digits using a Convolutional Neural Network (CNN).  
+- Tools: Python, TensorFlow, GUI.  
 
-## Software Engineering
-## Embedded System
-### Project 1: [Smart Home System Using ESP32](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/Project%20(Smart%20Home%20System))
-- Building up smart home using ESP32 and make it accessible using mobile phone
-- C++ - Arduino - Flutter - Firebase cloud.
-- There's provided video of working project.
+### Project 9: [Spam Email Classification](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Spam%20Email%20Classification)  
+- Built a Support Vector Machine model with 97.5% accuracy to classify SMS messages as spam or legitimate.  
+- Tools: Python, Text Mining, GUI.  
 
-## About & Contact
+### Project 10: [House Price Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/House%20Price%20Prediction)  
+- Predicted house prices using a Ridge Regression model, achieving an R² score of 89.18% and a Mean Squared Error of 0.02.  
+- Tools: Python, Regression with Cross-Validation.  
 
-I'm someone who loves using data and technology to solve tough problems. I've worked with different programming languages like Python, SQL, R, Java,C++, and various of tools to fit up my world of data.
-- Email: umahmoudessam@gmail.com
-- LinkedIn: [To Access My linked-in Profile](https://www.linkedin.com/in/mahmoudessam7/)
+### Project 11: [Smartphone Price Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Smartphone%20Prediction)  
+- Analyzed and predicted smartphone prices using a Random Forest Regressor with an MSE of 0.0007 on validation data.  
+- Tools: Python, Machine Learning, Power BI.  
 
+## Software Engineering  
+
+### Project 1: [Smart Home System Using ESP32](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/Project%20(Smart%20Home%20System))  
+- Developed a smart home system using ESP32, accessible via a mobile application.  
+- Tools: C++, Arduino, Flutter, Firebase Cloud.  
+- Includes a working project demonstration video.  
+
+### Project 2: CNC Plotter  
+- Designed and implemented a CNC plotter machine capable of creating 2D and 3D images on a flat surface using a 2D printing mechanism and a microcontroller. The project involved assembling 3D-printed parts, connecting 28BYJ-48 stepper motors with ULN2003 driver boards, and coding motion control for X, Y, and Z axes using a GRBL-based library. Vector images were prepared using Inkscape and converted to G-code via JSCut, with the G-code executed using the UGS platform for precise control and calibration. This project demonstrates expertise in Arduino programming, mechanical design, and integration of hardware and software systems.  
+
+### Project 3: PCB Designs  
+- **Arduino Shield PCB Design:** Created an educational PCB integrating an LCD, buzzer, LDR, DHT, and various sensors, catering to both kids and adults.  
+- **ESP32-Based PCB Design:** Designed a versatile PCB utilizing ESP32, incorporating flame sensors, RFID, fingerprint readers, keypads, and ultrasonic sensors.  
+- **PCB Troubleshooting:** Diagnosed and resolved a short circuit through a complete redesign, enhancing overall system performance.  
+- **Mini CNC Plotter PCB:** Developed a custom PCB to connect three stepper motors with LEDs using ULN2003 drivers, ensuring smoother and more efficient operation.  
+
+### Project 4: 4-Axis Arm  
+- Designed a 4-axis robotic arm using NEMA17 stepper motors and TMC drivers, capable of precise object manipulation and multitasking. This project highlights expertise in robotics, motion control, and hardware design, reflecting a strong passion for innovative technologies and their practical applications.  
+
+## About & Contact  
+
+I am passionate about leveraging data and technology to tackle challenging problems. I have experience with various programming languages, including Python, SQL, R, Java, and C++, as well as expertise in tools like Power BI, TensorFlow, and more of tools.
+- **Email:** umahmoudessam@gmail.com  
+- **LinkedIn:** [Visit my LinkedIn Profile](https://www.linkedin.com/in/mahmoudessam7/)  
