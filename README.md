@@ -57,16 +57,16 @@ Welcome to my portfolio! Here, you'll find completed projects in the fields of d
 - Tools: C++, Arduino, Flutter, Firebase Cloud.  
 - Includes a working project demonstration video.  
 
-### Project 2: CNC Plotter  
+### Project 2: [CNC Plotter](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/CNC%20PLOTTER)   
 - Designed and implemented a CNC plotter machine capable of creating 2D and 3D images on a flat surface using a 2D printing mechanism and a microcontroller. The project involved assembling 3D-printed parts, connecting 28BYJ-48 stepper motors with ULN2003 driver boards, and coding motion control for X, Y, and Z axes using a GRBL-based library. Vector images were prepared using Inkscape and converted to G-code via JSCut, with the G-code executed using the UGS platform for precise control and calibration. This project demonstrates expertise in Arduino programming, mechanical design, and integration of hardware and software systems.  
 
-### Project 3: PCB Designs  
+### Project 3: [PCB Designs](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/PCB)
 - **Arduino Shield PCB Design:** Created an educational PCB integrating an LCD, buzzer, LDR, DHT, and various sensors, catering to both kids and adults.  
 - **ESP32-Based PCB Design:** Designed a versatile PCB utilizing ESP32, incorporating flame sensors, RFID, fingerprint readers, keypads, and ultrasonic sensors.  
 - **PCB Troubleshooting:** Diagnosed and resolved a short circuit through a complete redesign, enhancing overall system performance.  
 - **Mini CNC Plotter PCB:** Developed a custom PCB to connect three stepper motors with LEDs using ULN2003 drivers, ensuring smoother and more efficient operation.  
 
-### Project 4: 4-Axis Arm  
+### Project 4: [4-Axis Arm](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/ARM)  
 - Designed a 4-axis robotic arm using NEMA17 stepper motors and TMC drivers, capable of precise object manipulation and multitasking. This project highlights expertise in robotics, motion control, and hardware design, reflecting a strong passion for innovative technologies and their practical applications.  
 
 ## About & Contact  
