@@ -48,7 +48,12 @@ Welcome to my portfolio! Here, you'll find completed projects in the fields of d
 
 ### Project 11: [Smartphone Price Prediction](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/Smartphone%20Prediction)  
 - Analyzed and predicted smartphone prices using a Random Forest Regressor with an MSE of 0.0007 on validation data.  
-- Tools: Python, Machine Learning, Power BI.  
+- Tools: Python, Machine Learning, Power BI.
+
+### Project 12: [EEG for Electroencephalography - eye state](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/ElectroEncePhalogram)
+- Analyzed EEG data from the Emotiv EEG Neuroheadset to detect eye state (open or closed) using machine learning models.
+- Conducted exploratory data analysis, feature correlation analysis, and outlier detection to optimize model performance.
+- Trained and evaluated multiple machine learning models, selecting K-Nearest Neighbors (KNN) as the best performer with 96.26\% accuracy.
 
 ## Software Engineering  
 
