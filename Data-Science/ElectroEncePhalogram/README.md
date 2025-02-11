@@ -7,6 +7,31 @@ This project involves analyzing EEG data collected from the Emotiv EEG Neurohead
 - `1`: Eye Closed
 - `0`: Eye Open
 
+## Project Structure
+
+```
+📂 data
+   ├── 📂 raw  # Contains the original EEG dataset "ignored"
+
+📂 src
+   ├── 📂 data  # Data loading and preprocessing scripts
+   │   ├── dataset.py
+   ├── 📂 models  # Model training scripts and saved experiments
+   │   ├── train.py
+   ├── 📂 deployment  # Deployment-related files
+   │   ├── Dockerfile
+   │   ├── model.pkl
+   │   ├── scaler.pkl
+   │   ├── serve_model.py  # API using FastAPI
+   │   ├── requirements.txt
+   ├── 📂 test  # Unit tests
+   │   ├── test.py
+   ├── 📂 visualization  # EDA and visualization scripts
+
+.gitignore
+requirements.txt -> as a main requirements for whole script
+```
+
 ## Project Workflow
 
 ### 1. Data Overview
@@ -60,6 +85,15 @@ The best model is selected based on the highest F1 score.
 - Their eye state is predicted using the trained model.
 - Results are compared with actual labels.
 
+## API Deployment
+The trained model is deployed using **FastAPI**.
+### API Endpoints
+- **GET `/`** → Welcome message.
+- **POST `/predict`** → Predicts eye state for a single input sample.
+- **POST `/predict_batch`** → Predicts eye state for multiple input samples.
+
+The API loads the trained model (`model.pkl`) and applies the corresponding scaler (`scaler.pkl`) before making predictions.
+
 ## Results
 | Model | Accuracy | Precision | Recall | F1 Score |
 |-----------------|----------|-----------|--------|---------|
@@ -70,7 +104,7 @@ The best model is selected based on the highest F1 score.
 - K-Nearest Neighbors (KNN) provided the best performance.
 - Data preprocessing and feature scaling significantly impact model performance.
 
-## Future Improvements
-- Experiment with deep learning models (e.g., CNN, LSTMs) for EEG classification.
-- Increase dataset size for better generalization.
-- Optimize feature selection for improved efficiency.
+## Deployment Strategy
+- Containerized using **Docker** (`Dockerfile` included).
+- Future plan: Deploy to **Kubernetes** with auto-scaling and monitoring.
+- Implement **CI/CD pipelines** for continuous model improvements.

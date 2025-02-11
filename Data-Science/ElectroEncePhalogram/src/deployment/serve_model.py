@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import numpy as np
 import joblib
 import uvicorn
+from prometheus_fastapi_instrumentator import Instrumentator
 
 app = FastAPI()
 
@@ -43,5 +44,9 @@ def predict_batch(data: BatchInputData):
     predictions = model.predict(scaled_array)
     return {"predictions": [LABELS[int(pred)] for pred in predictions]}
 
+# Instrumentator for Prometheus metrics
+Instrumentator().instrument(app).expose(app)
+
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000, reload=True)
+
