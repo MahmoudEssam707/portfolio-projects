@@ -2,7 +2,9 @@ import requests
 import numpy as np
 
 # Define API endpoint
-url_single = "http://127.0.0.1:8000/predict"
+url_single = "https://eeg-humachine.up.railway.app/predict"
+
+print(f"\n🔹 Testing your values into API: {url_single}")
 
 # Given observations
 observations = [
