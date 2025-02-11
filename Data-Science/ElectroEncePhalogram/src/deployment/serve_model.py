@@ -48,6 +48,7 @@ def predict(data: SingleInputData):
 #     scaled_array = scaler.transform(input_array)  # Apply scaling
 #     predictions = model.predict(scaled_array)
 #     return {"predictions": [LABELS[int(pred)] for pred in predictions]}
+
 @app.get("/metrics")
 def metrics():
     """Expose Prometheus metrics."""

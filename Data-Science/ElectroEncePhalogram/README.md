@@ -106,5 +106,19 @@ The API loads the trained model (`model.pkl`) and applies the corresponding scal
 
 ## Deployment Strategy
 - Containerized using **Docker** (`Dockerfile` included).
-- Future plan: Deploy to **Kubernetes** with auto-scaling and monitoring.
-- Implement **CI/CD pipelines** for continuous model improvements.
+- Deployed using **Railway** at: [https://eeg-humachine.up.railway.app/](https://eeg-humachine.up.railway.app/)
+- Future deployment plans include migrating to **AWS, Azure, or GCP** for better scalability and reliability.
+- Implemented monitoring using **Prometheus**, exposing metrics at `/metrics`.
+- Model is served using **FastAPI**, allowing real-time predictions via simple API calls.
+- Example API test:
+
+```bash
+curl -X 'POST' 'https://eeg-humachine.up.railway.app/predict' \
+     -H 'Content-Type: application/json' \
+     -d '{
+           "features": [4285.64, 4004.62, 4264.1, 4115.38, 4320.0, 4615.9, 4071.79, 4608.72, 4201.03, 4224.62, 4162.56, 4271.79, 4584.1, 4352.31]
+         }'
+```
+
+You can try testing it with your own data!
+
