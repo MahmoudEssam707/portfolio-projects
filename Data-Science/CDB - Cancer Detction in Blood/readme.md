@@ -120,7 +120,7 @@ The model ensures **no myeloblast cases are missed**, crucial for early leukemia
 - [x] MLflow integration
 - [x] FastAPI deployment with dockerization
 - [x] Web-App for easier actions 
-- [x] Vercel deployed service:
+- [x] Vercel deployed service:https://portfolio-projects-production-5f4a.up.railway.app/
 
 
 ---
