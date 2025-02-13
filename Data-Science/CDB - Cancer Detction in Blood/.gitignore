@@ -1,0 +1,8 @@
+# Ignore raw data directory
+data/raw/
+
+# Ignore MLflow runs directory
+src/model/mlruns/
+
+# Ignore model checkpoints
+src/model/checkpoints/

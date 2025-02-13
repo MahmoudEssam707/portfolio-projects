@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cancer Cell Detection</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: none;
+        }
+        .prediction-bar {
+            margin: 10px 0;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .image-preview {
+            margin: 20px 0;
+            max-width: 100%;
+        }
+        .image-preview img {
+            max-width: 400px;
+            max-height: 400px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        .results-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        input[type="file"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cancer Cell Detection</h1>
+        <form id="upload-form">
+            <input type="file" id="file-input" accept="image/*" required>
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result" class="result">
+            <div class="results-container">
+                <div class="image-preview">
+                    <h3>Uploaded Image</h3>
+                    <img id="preview-image" src="" alt="Uploaded image">
+                </div>
+                <div class="predictions-section">
+                    <h2>Prediction Results</h2>
+                    <div id="predictions"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Made with Love by Mahmoud Essam
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('upload-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData();
+            const fileInput = document.getElementById('file-input');
+            formData.append('file', fileInput.files[0]);
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+                
+                const resultDiv = document.getElementById('result');
+                const predictionsDiv = document.getElementById('predictions');
+                const previewImage = document.getElementById('preview-image');
+                
+                // Display the image
+                previewImage.src = `data:image/jpeg;base64,${data.image}`;
+                
+                // Display predictions
+                predictionsDiv.innerHTML = '';
+                Object.entries(data.all_predictions).forEach(([className, confidence]) => {
+                    const predDiv = document.createElement('div');
+                    predDiv.className = 'prediction-bar';
+                    predDiv.innerHTML = `${className}: ${confidence}`;
+                    if (className === data.class) {
+                        predDiv.style.backgroundColor = '#e6ffe6';
+                        predDiv.style.fontWeight = 'bold';
+                    }
+                    predictionsDiv.appendChild(predDiv);
+                });
+                
+                resultDiv.style.display = 'block';
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error processing image');
+            }
+        });
+    </script>
+</body>
+</html>

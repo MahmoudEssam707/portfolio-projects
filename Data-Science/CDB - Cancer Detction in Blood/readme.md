@@ -30,6 +30,22 @@ To **enhance generalization**, the following techniques are applied:
 - Horizontal flipping  
 - Pixel rescaling  
 
+## Project Structure
+```
+cancer-detection-blood/
+├── data/
+│   ├── raw/               # Original image dataset
+│   └── processed/         # Preprocessed images
+├── src/
+│   ├── model/            
+│   │   ├── train.py      # Training script
+│   │   └── predict.py    # Prediction script
+│   └── utils/            # Utility functions
+├── notebooks/            # Jupyter notebooks
+├── tests/               # Unit tests
+├── config.yaml          # Configuration file
+└── requirements.txt     # Project dependencies
+```
 ---
 
 ## 2. CNN Model Architecture  
@@ -88,18 +104,28 @@ The model is trained on **3500 images**, validated on **750**, and tested on **7
 
 The model ensures **no myeloblast cases are missed**, crucial for early leukemia detection.
 
+## 5. MLOps Integration
+
+### MLflow Tracking
+- Experiment tracking with metrics and artifacts
+- Model versioning and deployment
+- Hyperparameter optimization results
+
+### Model Serving
+- FastAPI endpoint for real-time predictions
+- Docker containerization
+- Load testing results
+
+### Current Release (v1.0)
+- [x] MLflow integration
+- [x] FastAPI deployment with dockerization
+- [x] Web-App for easier actions 
+- [x] Vercel deployed service:
+
+
 ---
+## 5. Conclusion & Impact
 
-## 5. Conclusion & Future Improvements  
-
-- The CNN effectively classifies blood cells with **high accuracy**.  
-- **100% recall for myeloblasts** ensures **early cancer detection**.  
-- The model can be **improved further** by:  
-
-  - Increasing the dataset size for better generalization.  
-  - Testing more advanced architectures (e.g., **Vision Transformers**).  
-  - Validating results with real-world clinical data.  
-
-This study demonstrates how **deep learning** can significantly enhance leukemia detection in medical diagnostics.  
+This deep learning project achieved **98.53% accuracy** demonstrating significant potential for automating early leukemia detection in clinical settings, while maintaining perfect recall for critical cases and establishing a robust foundation for future medical AI applications.
 
 ---

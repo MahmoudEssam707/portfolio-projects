@@ -1,0 +1,15 @@
+paths:
+  raw_data: "/home/mahmoud/CDIB/data/raw/"
+  processed_data: "/home/mahmoud/CDIB/data/processed/"
+  model_dir: "/home/mahmoud/CDIB/src/models/"
+  checkpoint_dir: "/home/mahmoud/CDIB/src/model/checkpoints"
+
+mlflow:
+  tracking_uri: "mlruns/"
+  experiment_name: "cancer-detection"
+
+training:
+  batch_size: 16
+  epochs: 50
+  learning_rate: 0.003
+  image_size: [128, 128]
