@@ -74,7 +74,7 @@ Welcome to my portfolio! Here, you'll find completed projects in the fields of d
 ### Project 4: [4-Axis Arm](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/ARM)  
 - Designed a 4-axis robotic arm using NEMA17 stepper motors and TMC drivers, capable of precise object manipulation and multitasking. This project highlights expertise in robotics, motion control, and hardware design, reflecting a strong passion for innovative technologies and their practical applications.  
 
-## EcoFarm - Smart Agriculture System - Graduation Project  
+## [EcoFarm - Smart Agriculture System - Graduation Project](https://github.com/MahmoudEssam707/EcoFarm)  
 
 - **Team Leadership & Project Management:** Led a cross-functional team in designing and developing an IoT-powered precision agriculture system, overseeing hardware integration, AI model development, and software deployment.  
 - **Custom PCB Engineering:** Designed and implemented a high-performance PCB to support real-time IoT data acquisition, successfully stress-tested over **24 hours with 10,000+ observations**, ensuring reliability and efficiency in harsh agricultural environments.  
