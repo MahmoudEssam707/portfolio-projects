@@ -74,6 +74,17 @@ Welcome to my portfolio! Here, you'll find completed projects in the fields of d
 ### Project 4: [4-Axis Arm](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/ARM)  
 - Designed a 4-axis robotic arm using NEMA17 stepper motors and TMC drivers, capable of precise object manipulation and multitasking. This project highlights expertise in robotics, motion control, and hardware design, reflecting a strong passion for innovative technologies and their practical applications.  
 
+## EcoFarm - Smart Agriculture System - Graduation Project  
+
+- **Team Leadership & Project Management:** Led a cross-functional team in designing and developing an IoT-powered precision agriculture system, overseeing hardware integration, AI model development, and software deployment.  
+- **Custom PCB Engineering:** Designed and implemented a high-performance PCB to support real-time IoT data acquisition, successfully stress-tested over **24 hours with 10,000+ observations**, ensuring reliability and efficiency in harsh agricultural environments.  
+- **Advanced Machine Learning & Incremental Learning:** Developed a **real-time, self-learning AI model** for continuous crop prediction, enabling seamless adaptation to changing environmental conditions without downtime.  
+- **AI-Powered Agricultural Assistant:** Designed and deployed an **intelligent chatbot**, leveraging NLP and contextual understanding to provide real-time farming insights, predictive recommendations, and decision support for users.  
+- **Cloud-Connected Mobile Application:** Engineered a feature-rich **Flutter-based mobile app**, enabling farmers to monitor land conditions, control IoT sensors, and receive AI-driven recommendations for optimizing crop yield and resource efficiency.  
+- **End-to-End IoT & Cloud Integration:** Built a robust backend infrastructure using **MQTT, HiveMQ, and RESTful APIs**, ensuring **secure, low-latency communication** between IoT devices, cloud servers, and user applications.  
+- **Scalability & Future Growth:** Designed the system for future expansion, including **edge AI capabilities, autonomous decision-making, and expanded sensor integrations** to enhance smart farming efficiency.  
+
+
 ## About & Contact  
 
 I am passionate about leveraging data and technology to tackle challenging problems. I have experience with various programming languages, including Python, SQL, R, Java, and C++, as well as expertise in tools like Power BI, TensorFlow, and more of tools.
