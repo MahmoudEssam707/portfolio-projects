@@ -55,6 +55,14 @@ Welcome to my portfolio! Here, you'll find completed projects in the fields of d
 - Conducted exploratory data analysis, feature correlation analysis, and outlier detection to optimize model performance.
 - Trained and evaluated multiple machine learning models, selecting K-Nearest Neighbors (KNN) as the best performer with 96.26\% accuracy.
 
+### Project 13: [CDIB - Cancer Detection In Blood](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Data-Science/CDB%20-%20Cancer%20Detction%20in%20Blood)
+- Developed a CNN model for leukemia detection using microscopic blood cell images, achieving 98.53% test accuracy.-
+- Enhanced high-resolution medical datasets using image preprocessing techniques to improve model performance. Quantized the
+model for efficient deployment, reducing its size by 83% while maintaining similar accuracy.
+- Ensured 100% recall for myeloblast detection, enhancing early-stage diagnosis and improving critical case identification.
+- Integrated MLOps practices including MLflow for experiment tracking, model versioning, and deployment.
+- Deployed a FastAPI for real-time predictions, containerized with Docker, and conducted a live app on the Railway cloud platform.
+
 ## Software Engineering  
 
 ### Project 1: [Smart Home System Using ESP32](https://github.com/MahmoudEssam707/portfolio-projects/tree/main/Software-engineer/Project%20(Smart%20Home%20System))  
